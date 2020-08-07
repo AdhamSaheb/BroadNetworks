@@ -1,0 +1,43 @@
+.company-image{
+  max-width: 200px;
+  max-height: 200px;
+  transition: 300ms;
+}
+.company-image:hover{
+
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: 400ms;
+
+}
+.partner-image{
+  max-width: 250px;
+  max-height: 300px;
+  margin: 20px;
+  transition: 400ms;
+}
+.partner-image:hover{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: 400ms;
+
+}
+
+
+.wrapper {
+  background-color: rgb(252, 252, 252);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+  margin: 25px ;
+  padding: 10px 10px 20px ;
+}
+
+
+.header {
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+.small-divider{
+  width: 5%;
+  border-top: 5px solid rgb(248, 219, 88);
+}

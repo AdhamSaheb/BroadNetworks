@@ -1,0 +1,21 @@
+#f404{
+  color: white;
+  font-size: 100px;
+}
+
+#btn1{
+  color: white;
+  border: 1px solid rgb(18, 175, 162);
+  margin-right: 1%;
+  width: 200px;
+}
+#btn1:hover{
+  background-color:rgb(18, 175, 162); ;
+  margin-right: 1%;
+
+}
+
+#info{
+  color: white;
+  font-size: 30px;
+}

@@ -1,0 +1,67 @@
+<div class="row wrapper">
+
+  <div class="col-md-12">
+
+
+  <!-- Header -->
+<div class="row justify-content-center" >
+  <div class="col-md-12" style="text-align: center;">
+    <p class='header'> Our Clients </p>
+    <hr class='small-divider'>
+  </div>
+</div>
+<!-- ------- -->
+
+
+<!-- Clients -->
+<div class="row justify-content-center " style="margin-bottom: 25px;">
+  <div class="col-md-12" style="text-align: center;">
+    <p style='color: rgb(10, 142, 194)'>Borad Networks is an authorized re-seller for </p>
+  </div>
+</div>
+<hr style="width: 70%;">
+  <div class="row justify-content-center">
+    <div class="col-md-4 member-container" *ngFor='let company of companies'>
+      <div class="row justify-content-center">
+        <img src={{company}} class="company-image">
+      </div>
+    </div>
+
+  </div>
+
+<!-- ------- -->
+
+
+  <!-- Header -->
+  <div class="row justify-content-center" >
+    <div class="col-md-12" style="text-align: center;">
+      <p class='header'> Our Partners </p>
+      <hr class='small-divider'>
+    </div>
+  </div>
+  <!-- ------- -->
+
+
+
+  <!-- Partners -->
+<div class="row justify-content-center " style="margin-bottom: 25px;">
+  <div class="col-md-12" style="text-align: center;">
+    <p style='color: rgb(10, 142, 194)'>Borad Networks works in cooperation with </p>
+  </div>
+</div>
+<hr style="width: 70%;">
+  <div class="row justify-content-center">
+    <div class="col-md-6 member-container" *ngFor='let partner of partners'>
+      <div class="row justify-content-center">
+        <img src={{partner}}  class="partner-image">
+      </div>
+    </div>
+
+  </div>
+
+<!-- ------- -->
+
+
+
+</div>
+</div>

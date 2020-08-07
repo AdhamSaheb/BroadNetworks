@@ -1,0 +1,36 @@
+<div class="wrapper">
+
+
+
+<div class="row " id='header'>
+
+
+  <p id='our'>Our</p>
+  <p id='work'> Services</p>
+</div>
+<hr class="small-divider">
+<div class="row lead">
+  <div class="col-md-12 ">
+
+  <p style='color: rgb(10, 142, 194); font-size: 18px; font-weight: 400;' >Broad Networks provides a variety of network solutions</p>
+  <hr style="width: 80%;">
+</div>
+
+</div>
+
+<div class="row services">
+
+  <div class="col-md-4" *ngFor='let service of services'>
+    <div class="service-container " >
+      <div class="row justify-content-center">
+        <img class="service-image" src={{service.image}}>
+      </div>
+
+      <p class='service-title'>{{service.name}}</p>
+      <hr>
+      <!-- <p class="service-description">{{service.descripton}}</p> -->
+    </div>
+  </div>
+
+</div>
+</div>
